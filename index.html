@@ -1,0 +1,121 @@
+
+<html>
+<head>
+    <title> YRT ecliptic </title>
+</head>
+<body>
+<style>
+    body {
+        font-family: trebuchet ms;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9; 
+    }
+    
+    h1 {
+        background-color: #966BD6; 
+        height: 10%; 
+        text-align: center; 
+        color: #FFF273;
+        margin-top: 0;
+        padding: 20px 0; 
+    }
+    
+    .star-text::before {
+        content: "★";
+        color: #FFEE40;
+        margin-right: 1%;
+    }
+    
+    .star-text::after {
+        content: "★";
+        color: #FFEE40;
+        margin-left: 1%;
+    }
+
+    
+    .banner-box {
+        background-color: #ffffff;
+        border: 2px solid #e0e0e0;
+        border-radius: 8px;
+        height: 150px; /* можно изменить высоту */
+        margin: 20px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+		
+	padding: 20px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center; 
+    font-size: 16px;
+    line-height: 1.6;
+    }
+
+    /* Заголовок для секции с проблемами */
+    .section-title {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        color: #333333;
+        margin: 30px 0 20px 0;
+    }
+
+    /* Сетка-контейнер для 12 коробок */
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); /* 4 колонки в ряд, как на рисунке */
+        gap: 20px; /* расстояние между коробками */
+        padding: 0 20px 40px 20px; /* отступы по бокам и снизу */
+    }
+
+    /* коробки-ссылки */
+    .grid-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        border: 2px solid #966BD6; 
+        border-radius: 6px;
+        height: 80px;
+        text-decoration: none; 
+        color: #966BD6; 
+        font-weight: bold;
+        transition: all 0.2s ease; /* анимация при наведении */
+    }
+
+    /* Эффект при наведении курсора на коробку */
+    .grid-item:hover {
+        background-color: #966BD6;
+        color: #ffffff;
+        transform: translateY(-2px); 
+        box-shadow: 0 4px 10px rgba(150, 107, 214, 0.2);
+    }
+</style>
+
+<h1><span class="class"></span><span class="star-text">Hello! We are team "Ecliptic" researching 12 topics for YRT!</span></h1>
+
+<div class="banner-box">
+This platform serves as an interactive repository for the scientific research conducted by team Ecliptic for the Young Researchers Tournament (YRT). Here, we present our comprehensive analysis, theoretical models, and experimental data for 12 distinct problems spanning physics, chemistry, and interdisciplinary sciences. We aim to make our scientific findings accessible and engaging. We invite you to browse through our active workspace and review the results of our work.
+    </div>
+
+<div class="section-title">Our problems:</div>
+
+<div class="grid-container">
+    <a href="problem1.html" class="grid-item">Sorbents - poison eaters</a>
+    <a href="problem2.html" class="grid-item">Cocoa powder collapse</a>
+    <a href="problem3.html" class="grid-item">Organic power sources</a>
+    <a href="problem4.html" class="grid-item">Salty boiling water</a>
+    
+    <a href="problem5.html" class="grid-item">Dancing drop</a>
+    <a href="problem6.html" class="grid-item">Light refraction in liquids</a>
+    <a href="problem7.html" class="grid-item">Geckos against gravity</a>
+    <a href="problem8.html" class="grid-item">Polymer strings mechanics</a>
+    
+    <a href="problem9.html" class="grid-item">Coffee ring</a>
+    <a href="problem10.html" class="grid-item">Traffic jams reduction</a>
+    <a href="problem11.html" class="grid-item">Ping pong win technique</a>
+    <a href="problem12.html" class="grid-item">Rhythms: chaos and beauty</a>
+</div>
+
+</body>
+</html>

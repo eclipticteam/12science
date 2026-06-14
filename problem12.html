@@ -1,0 +1,159 @@
+<html>
+<head>
+    <title>YRT Project - Problem Page</title>
+</head>
+<body>
+<style>
+    body {
+        font-family: trebuchet ms;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333333;
+    }
+
+    /* Navigation bars (top and bottom) */
+    .nav-container {
+        padding: 15px 20px;
+    }
+
+    /* Style for the "Back to Home" buttons */
+    .back-btn {
+        display: inline-block;
+        padding: 8px 16px;
+        border: 2px solid #966BD6;
+        border-radius: 20px;
+        text-decoration: none;
+        color: #966BD6;
+        font-weight: bold;
+        font-size: 14px;
+        transition: all 0.2s ease;
+    }
+
+    .back-btn:hover {
+        background-color: #966BD6;
+        color: #ffffff;
+    }
+
+    /* Main topic heading */
+    .project-title {
+        font-size: 36px;
+        color: #333333;
+        margin: 10px 20px 0 20px;
+        padding-bottom: 10px;
+    }
+
+    /* Horizontal line under the title */
+    .divider {
+        border: none;
+        height: 2px;
+        background-color: #333333;
+        margin: 0 20px 30px 20px;
+    }
+
+    /* Container for the first row (question text + image) */
+    .top-row {
+        display: flex;
+        gap: 30px;
+        margin: 0 20px 30px 20px;
+    }
+
+    /* Question text box */
+    .question-box {
+        flex: 1; /* takes equal space in the row */
+        background-color: #ffffff;
+        border: 2px solid #333333; /* dark border according to the layout */
+        border-radius: 24px; /* rounded corners according to the layout */
+        padding: 25px;
+        min-height: 180px;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    /* Image box */
+    .image-box {
+        flex: 1;
+        background-color: #ffffff;
+        border: 2px solid #333333;
+        border-radius: 8px; /* rectangular shape according to the layout */
+        min-height: 180px;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Standard image fitting */
+    .image-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+    }
+
+    /* Placeholder text styling */
+    .media-placeholder {
+        color: #888888;
+        font-weight: bold;
+    }
+
+    /* Research description block */
+    .research-text {
+        margin: 0 20px 30px 20px;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    /* Experiment video box */
+    .video-box {
+        width: 300px; /* fixed width according to the layout */
+        height: 180px;
+        background-color: #ffffff;
+        border: 3px solid #000000; /* thick border according to the layout */
+        border-radius: 4px;
+        margin: 0 20px 30px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .video-box video, .video-box iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+</style>
+
+<div class="nav-container">
+    <a href="index.html" class="back-btn"> Main Page</a>
+</div>
+
+<h2 class="project-title">Rhythms: chaos and beauty</h2>
+<div class="divider"></div>
+
+<div class="top-row">
+    <div class="question-box">
+        <strong>Problem Formulation:</strong>
+        <p>Random rhythms can be perceived in different ways — from chaotic to musically organized. Investigate which properties of rhythmic sequences affect human perception and whether it is possible to quantitatively describe the “musicality” of a rhythm.</p>
+    </div>
+
+    <div class="image-box">
+        <img src="musicrh.jpg">
+        </div>
+</div>
+
+<div class="research-text">
+    <h3>Research & Results</h3>
+    <p></p>
+</div>
+
+<div class="video-box">
+    <video src="" controls> </video>
+</div>
+
+<div class="nav-container">
+    <a href="index.html" class="back-btn"> Main Page</a>
+</div>
+
+</body>
+</html>
